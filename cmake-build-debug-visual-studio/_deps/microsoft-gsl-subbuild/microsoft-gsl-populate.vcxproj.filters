@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\a0b876b74588171358d7f2077a4c8617\microsoft-gsl-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\a0b876b74588171358d7f2077a4c8617\microsoft-gsl-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\a0b876b74588171358d7f2077a4c8617\microsoft-gsl-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\a0b876b74588171358d7f2077a4c8617\microsoft-gsl-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\a0b876b74588171358d7f2077a4c8617\microsoft-gsl-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\a0b876b74588171358d7f2077a4c8617\microsoft-gsl-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\a0b876b74588171358d7f2077a4c8617\microsoft-gsl-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\a0b876b74588171358d7f2077a4c8617\microsoft-gsl-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\a071ed9109a74af361110b58620f1d00\microsoft-gsl-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\c1d855ef6ed5e524b870a3ba9cc71d5b\microsoft-gsl-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\microsoft-gsl-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{391D6998-2DAF-3F18-99D6-9E51848BE59B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

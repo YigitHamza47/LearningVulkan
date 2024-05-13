@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4E51F8B7-04AD-350D-80E2-C4A947C45A07}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>microsoft-gsl-populate</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\a0b876b74588171358d7f2077a4c8617\microsoft-gsl-populate-mkdir.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'microsoft-gsl-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -Dcfgdir=/Debug -P C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/tmp/microsoft-gsl-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/Debug/microsoft-gsl-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\a0b876b74588171358d7f2077a4c8617\microsoft-gsl-populate-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'microsoft-gsl-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/tmp/microsoft-gsl-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/Debug/microsoft-gsl-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\microsoft-gsl-populate-gitinfo.txt;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\a0b876b74588171358d7f2077a4c8617\microsoft-gsl-populate-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'microsoft-gsl-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -Dcan_fetch=YES -P C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/tmp/microsoft-gsl-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\tmp\microsoft-gsl-populate-gitupdate.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\microsoft-gsl-populate-update-info.txt;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\a0b876b74588171358d7f2077a4c8617\microsoft-gsl-populate-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'microsoft-gsl-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/Debug/microsoft-gsl-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\microsoft-gsl-populate-patch-info.txt;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\a0b876b74588171358d7f2077a4c8617\microsoft-gsl-populate-configure.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'microsoft-gsl-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/Debug/microsoft-gsl-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\tmp\microsoft-gsl-populate-cfgcmd.txt;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\a0b876b74588171358d7f2077a4c8617\microsoft-gsl-populate-build.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'microsoft-gsl-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/Debug/microsoft-gsl-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\a0b876b74588171358d7f2077a4c8617\microsoft-gsl-populate-install.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'microsoft-gsl-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/Debug/microsoft-gsl-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\a0b876b74588171358d7f2077a4c8617\microsoft-gsl-populate-test.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'microsoft-gsl-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/Debug/microsoft-gsl-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\a071ed9109a74af361110b58620f1d00\microsoft-gsl-populate-complete.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'microsoft-gsl-populate'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E make_directory C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/Debug/microsoft-gsl-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/Debug/microsoft-gsl-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-install;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-mkdir;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-download;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-update;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-patch;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-configure;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-build;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\src\microsoft-gsl-populate-stamp\Debug\microsoft-gsl-populate-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\Debug\microsoft-gsl-populate-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\c1d855ef6ed5e524b870a3ba9cc71d5b\microsoft-gsl-populate.rule">
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\Debug\microsoft-gsl-populate-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\microsoft-gsl-populate</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -SC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild -BC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild --check-stamp-file C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\ExternalProject.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\ExternalProject\PatchInfo.txt.in;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\ExternalProject\RepositoryInfo.txt.in;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\ExternalProject\UpdateInfo.txt.in;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\ExternalProject\cfgcmd.txt.in;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\ExternalProject\gitclone.cmake.in;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\ExternalProject\gitupdate.cmake.in;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\ExternalProject\mkdirs.cmake.in;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\3.28.1\CMakeSystem.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\microsoft-gsl-populate-prefix\tmp\microsoft-gsl-populate-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\CMakeFiles\microsoft-gsl-populate">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-subbuild\ZERO_CHECK.vcxproj">
+      <Project>{48B06CB5-92AA-3F7C-AEEC-84061D9DE7A0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

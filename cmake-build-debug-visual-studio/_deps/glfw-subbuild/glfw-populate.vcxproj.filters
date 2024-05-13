@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-subbuild\CMakeFiles\562fb71b419b7f54774bf427f84b06b1\glfw-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-subbuild\CMakeFiles\562fb71b419b7f54774bf427f84b06b1\glfw-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-subbuild\CMakeFiles\562fb71b419b7f54774bf427f84b06b1\glfw-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-subbuild\CMakeFiles\562fb71b419b7f54774bf427f84b06b1\glfw-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-subbuild\CMakeFiles\562fb71b419b7f54774bf427f84b06b1\glfw-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-subbuild\CMakeFiles\562fb71b419b7f54774bf427f84b06b1\glfw-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-subbuild\CMakeFiles\562fb71b419b7f54774bf427f84b06b1\glfw-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-subbuild\CMakeFiles\562fb71b419b7f54774bf427f84b06b1\glfw-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-subbuild\CMakeFiles\9dbff2f57bf9e489f4b6dfd6e17bab19\glfw-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-subbuild\CMakeFiles\17da2294a8bb56024fba61c3a78b1253\glfw-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-subbuild\CMakeFiles\glfw-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{75BC5589-B3C0-3BBD-8663-3DF558D6C478}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

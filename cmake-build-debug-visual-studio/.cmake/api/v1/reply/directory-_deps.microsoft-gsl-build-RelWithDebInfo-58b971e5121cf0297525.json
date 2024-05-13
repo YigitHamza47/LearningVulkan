@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/microsoft-gsl-build",
+		"source" : "cmake-build-debug-visual-studio/_deps/microsoft-gsl-src"
+	}
+}

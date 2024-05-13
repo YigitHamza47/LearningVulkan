@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\BABOENGINE.dir\cmake_pch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\glfw_initilazition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\glfw_monitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\glfw_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\glfw_initilazition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\precomp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\glfw_monitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\glfw_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\BABOENGINE.dir\Debug\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\BABOENGINE.dir\Release\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\BABOENGINE.dir\MinSizeRel\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\BABOENGINE.dir\RelWithDebInfo\cmake_pch.hxx">
+      <Filter>Precompile Header File</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-src\GSL.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9DB8A381-3F76-34BD-BB88-FE940AC50B79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile Header File">
+      <UniqueIdentifier>{CE15A6B9-286C-3AF6-A36F-8AC6444F09CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C263094B-871C-3F89-A78C-5ECDAAB8CD27}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

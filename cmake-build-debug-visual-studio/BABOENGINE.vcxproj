@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BDFBE8D3-56B5-31DB-BE3F-FBC829673DAB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>BABOENGINE</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">BABOENGINE.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">BABOENGINE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">BABOENGINE.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">BABOENGINE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">BABOENGINE.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">BABOENGINE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">BABOENGINE.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">BABOENGINE</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glm-src;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/VulkanSDK/1.3.280.0/Include" /external:I "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-src/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/BABOENGINE.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glm-src;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-src\include;C:\VulkanSDK\1.3.280.0\Include;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glm-src;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-src\include;C:\VulkanSDK\1.3.280.0\Include;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\VulkanSDK\1.3.280.0\Lib\vulkan-1.lib;_deps\glm-build\glm\Debug\glm.lib;_deps\glfw-build\src\Debug\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/Debug/BABOENGINE.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/Debug/BABOENGINE.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glm-src;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/VulkanSDK/1.3.280.0/Include" /external:I "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-src/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/BABOENGINE.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glm-src;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-src\include;C:\VulkanSDK\1.3.280.0\Include;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glm-src;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-src\include;C:\VulkanSDK\1.3.280.0\Include;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\VulkanSDK\1.3.280.0\Lib\vulkan-1.lib;_deps\glm-build\glm\Release\glm.lib;_deps\glfw-build\src\Release\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/Release/BABOENGINE.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/Release/BABOENGINE.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glm-src;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/VulkanSDK/1.3.280.0/Include" /external:I "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-src/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/BABOENGINE.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glm-src;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-src\include;C:\VulkanSDK\1.3.280.0\Include;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glm-src;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-src\include;C:\VulkanSDK\1.3.280.0\Include;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\VulkanSDK\1.3.280.0\Lib\vulkan-1.lib;_deps\glm-build\glm\MinSizeRel\glm.lib;_deps\glfw-build\src\MinSizeRel\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/MinSizeRel/BABOENGINE.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/MinSizeRel/BABOENGINE.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glm-src;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/VulkanSDK/1.3.280.0/Include" /external:I "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-src/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/BABOENGINE.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glm-src;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-src\include;C:\VulkanSDK\1.3.280.0\Include;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glm-src;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-src\include;C:\VulkanSDK\1.3.280.0\Include;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\VulkanSDK\1.3.280.0\Lib\vulkan-1.lib;_deps\glm-build\glm\RelWithDebInfo\glm.lib;_deps\glfw-build\src\RelWithDebInfo\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/RelWithDebInfo/BABOENGINE.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/RelWithDebInfo/BABOENGINE.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -SC:/Users/yigit/Desktop/projeler/C++/LearningVulkan -BC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio --check-stamp-file C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FetchContent.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindGit.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindVulkan.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -SC:/Users/yigit/Desktop/projeler/C++/LearningVulkan -BC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio --check-stamp-file C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FetchContent.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindGit.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindVulkan.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -SC:/Users/yigit/Desktop/projeler/C++/LearningVulkan -BC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio --check-stamp-file C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FetchContent.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindGit.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindVulkan.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -SC:/Users/yigit/Desktop/projeler/C++/LearningVulkan -BC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio --check-stamp-file C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FetchContent.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindGit.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\FindVulkan.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\3.28.1\CMakeCCompiler.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\3.28.1\CMakeCXXCompiler.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\3.28.1\CMakeRCCompiler.cmake;C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\3.28.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\BABOENGINE.dir\cmake_pch.cxx">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/Debug/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/BABOENGINE.dir/Debug/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/Release/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/BABOENGINE.dir/Release/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/MinSizeRel/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/BABOENGINE.dir/MinSizeRel/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/RelWithDebInfo/cmake_pch.hxx</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/BABOENGINE.dir/RelWithDebInfo/cmake_pch.pch</PrecompiledHeaderOutputFile>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\main.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClInclude Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\glfw_initilazition.h" />
+    <ClCompile Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\glfw_initilazition.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClInclude Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\precomp.h" />
+    <ClCompile Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\glfw_monitor.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClInclude Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\glfw_monitor.h" />
+    <ClCompile Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\glfw_window.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClInclude Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\glfw_window.h" />
+    <ClCompile Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\graphics.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/Debug/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/Release/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/MinSizeRel/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</ScanSourceforModuleDependencies>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/CMakeFiles/BABOENGINE.dir/RelWithDebInfo/cmake_pch.hxx;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <ScanSourceforModuleDependencies Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</ScanSourceforModuleDependencies>
+    </ClCompile>
+    <ClInclude Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\source\graphics.h" />
+    <ClInclude Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\BABOENGINE.dir\Debug\cmake_pch.hxx" />
+    <ClInclude Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\BABOENGINE.dir\Release\cmake_pch.hxx" />
+    <ClInclude Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\BABOENGINE.dir\MinSizeRel\cmake_pch.hxx" />
+    <ClInclude Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\CMakeFiles\BABOENGINE.dir\RelWithDebInfo\cmake_pch.hxx" />
+    <Natvis Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-src\GSL.natvis">
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\ZERO_CHECK.vcxproj">
+      <Project>{B66390F9-9D2E-32FC-ADDD-145C97F86FBB}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glfw-build\src\glfw.vcxproj">
+      <Project>{E3695A43-0E2A-3E56-9C96-DA4569A144F2}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glm-build\glm\glm.vcxproj">
+      <Project>{3334A627-7524-3B92-AE4E-5C69F01FB305}</Project>
+      <Name>glm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

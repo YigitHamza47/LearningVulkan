@@ -1,0 +1,150 @@
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\MICROSOFT-GSL-SUBBUILD\CMAKEFILES\A0B876B74588171358D7F2077A4C8617\MICROSOFT-GSL-POPULATE-MKDIR.RULE
+setlocal
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -Dcfgdir=/Debug -P C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/tmp/microsoft-gsl-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/Debug/microsoft-gsl-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\MICROSOFT-GSL-SUBBUILD\CMAKEFILES\A0B876B74588171358D7F2077A4C8617\MICROSOFT-GSL-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/tmp/microsoft-gsl-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/Debug/microsoft-gsl-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\MICROSOFT-GSL-SUBBUILD\CMAKEFILES\A0B876B74588171358D7F2077A4C8617\MICROSOFT-GSL-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -Dcan_fetch=YES -P C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/tmp/microsoft-gsl-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\MICROSOFT-GSL-SUBBUILD\CMAKEFILES\A0B876B74588171358D7F2077A4C8617\MICROSOFT-GSL-POPULATE-PATCH.RULE
+setlocal
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/Debug/microsoft-gsl-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\MICROSOFT-GSL-SUBBUILD\CMAKEFILES\A0B876B74588171358D7F2077A4C8617\MICROSOFT-GSL-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/Debug/microsoft-gsl-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\MICROSOFT-GSL-SUBBUILD\CMAKEFILES\A0B876B74588171358D7F2077A4C8617\MICROSOFT-GSL-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/Debug/microsoft-gsl-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\MICROSOFT-GSL-SUBBUILD\CMAKEFILES\A0B876B74588171358D7F2077A4C8617\MICROSOFT-GSL-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/Debug/microsoft-gsl-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\MICROSOFT-GSL-SUBBUILD\CMAKEFILES\A0B876B74588171358D7F2077A4C8617\MICROSOFT-GSL-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\microsoft-gsl-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/Debug/microsoft-gsl-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\MICROSOFT-GSL-SUBBUILD\CMAKEFILES\A071ED9109A74AF361110B58620F1D00\MICROSOFT-GSL-POPULATE-COMPLETE.RULE
+setlocal
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E make_directory C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/Debug/microsoft-gsl-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/Debug/microsoft-gsl-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\MICROSOFT-GSL-SUBBUILD\CMAKEFILES\C1D855EF6ED5E524B870A3BA9CC71D5B\MICROSOFT-GSL-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\MICROSOFT-GSL-SUBBUILD\CMAKELISTS.TXT
+setlocal
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -SC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild -BC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild --check-stamp-file C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

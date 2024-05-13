@@ -1,0 +1,10 @@
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\GLM-SRC\GLM\CMAKELISTS.TXT
+setlocal
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -SC:/Users/yigit/Desktop/projeler/C++/LearningVulkan -BC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio --check-stamp-file C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-build/glm/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

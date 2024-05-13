@@ -1,0 +1,150 @@
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\GLM-SUBBUILD\CMAKEFILES\3A953DD7BC90E562228A58A37C43B80B\GLM-POPULATE-MKDIR.RULE
+setlocal
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -Dcfgdir=/Debug -P C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/glm-populate-prefix/tmp/glm-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/Debug/glm-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\GLM-SUBBUILD\CMAKEFILES\3A953DD7BC90E562228A58A37C43B80B\GLM-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/glm-populate-prefix/tmp/glm-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/Debug/glm-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\GLM-SUBBUILD\CMAKEFILES\3A953DD7BC90E562228A58A37C43B80B\GLM-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glm-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -Dcan_fetch=YES -P C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/glm-populate-prefix/tmp/glm-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\GLM-SUBBUILD\CMAKEFILES\3A953DD7BC90E562228A58A37C43B80B\GLM-POPULATE-PATCH.RULE
+setlocal
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/Debug/glm-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\GLM-SUBBUILD\CMAKEFILES\3A953DD7BC90E562228A58A37C43B80B\GLM-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glm-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/Debug/glm-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\GLM-SUBBUILD\CMAKEFILES\3A953DD7BC90E562228A58A37C43B80B\GLM-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glm-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/Debug/glm-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\GLM-SUBBUILD\CMAKEFILES\3A953DD7BC90E562228A58A37C43B80B\GLM-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glm-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/Debug/glm-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\GLM-SUBBUILD\CMAKEFILES\3A953DD7BC90E562228A58A37C43B80B\GLM-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\glm-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/Debug/glm-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\GLM-SUBBUILD\CMAKEFILES\081439E1975E3E7E47EDB93DBCA01EEE\GLM-POPULATE-COMPLETE.RULE
+setlocal
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E make_directory C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/CMakeFiles/Debug/glm-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E touch C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/glm-populate-prefix/src/glm-populate-stamp/Debug/glm-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\GLM-SUBBUILD\CMAKEFILES\57B1CC170EB1B8CABD84D2DB77870132\GLM-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YIGIT\DESKTOP\PROJELER\C++\LEARNINGVULKAN\CMAKE-BUILD-DEBUG-VISUAL-STUDIO\_DEPS\GLM-SUBBUILD\CMAKELISTS.TXT
+setlocal
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -SC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild -BC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild --check-stamp-file C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

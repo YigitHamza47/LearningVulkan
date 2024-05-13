@@ -1,0 +1,14 @@
+# Target labels
+ microsoft-gsl-populate
+# Source files and their labels
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/microsoft-gsl-populate
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/c1d855ef6ed5e524b870a3ba9cc71d5b/microsoft-gsl-populate.rule
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/a071ed9109a74af361110b58620f1d00/microsoft-gsl-populate-complete.rule
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/a0b876b74588171358d7f2077a4c8617/microsoft-gsl-populate-build.rule
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/a0b876b74588171358d7f2077a4c8617/microsoft-gsl-populate-configure.rule
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/a0b876b74588171358d7f2077a4c8617/microsoft-gsl-populate-download.rule
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/a0b876b74588171358d7f2077a4c8617/microsoft-gsl-populate-install.rule
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/a0b876b74588171358d7f2077a4c8617/microsoft-gsl-populate-mkdir.rule
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/a0b876b74588171358d7f2077a4c8617/microsoft-gsl-populate-patch.rule
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/a0b876b74588171358d7f2077a4c8617/microsoft-gsl-populate-test.rule
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/a0b876b74588171358d7f2077a4c8617/microsoft-gsl-populate-update.rule

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/CMakeFiles/glm-populate"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/CMakeFiles/57b1cc170eb1b8cabd84d2db77870132/glm-populate.rule"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/CMakeFiles/081439e1975e3e7e47edb93dbca01eee/glm-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/CMakeFiles/3a953dd7bc90e562228a58a37c43b80b/glm-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/CMakeFiles/3a953dd7bc90e562228a58a37c43b80b/glm-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/CMakeFiles/3a953dd7bc90e562228a58a37c43b80b/glm-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/CMakeFiles/3a953dd7bc90e562228a58a37c43b80b/glm-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/CMakeFiles/3a953dd7bc90e562228a58a37c43b80b/glm-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/CMakeFiles/3a953dd7bc90e562228a58a37c43b80b/glm-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/CMakeFiles/3a953dd7bc90e562228a58a37c43b80b/glm-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/glm-subbuild/CMakeFiles/3a953dd7bc90e562228a58a37c43b80b/glm-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glm-populate"
+		],
+		"name" : "glm-populate"
+	}
+}

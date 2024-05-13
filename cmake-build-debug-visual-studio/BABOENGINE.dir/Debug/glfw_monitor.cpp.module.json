@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "BABOENGINE.dir\\Debug\\glfw_monitor.obj",
+            "outputs": [
+                "C:\\Users\\yigit\\Desktop\\projeler\\C++\\LearningVulkan\\cmake-build-debug-visual-studio\\BABOENGINE.dir\\Debug\\vc143.pdb",
+                "BABOENGINE.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

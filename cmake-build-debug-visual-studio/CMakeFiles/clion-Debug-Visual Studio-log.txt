@@ -1,0 +1,10 @@
+C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -G "Visual Studio 17 2022" -S C:\Users\yigit\Desktop\projeler\C++\LearningVulkan -B C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.22631.
+-- GLM: Version 1.0.1
+-- GLM: Build with C++ features auto detection
+-- Including Win32 support
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Documentation generation requires Doxygen 1.9.8 or later
+-- Configuring done (2.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio

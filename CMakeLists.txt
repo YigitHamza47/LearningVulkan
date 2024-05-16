@@ -41,6 +41,8 @@ add_executable(BABOENGINE source/main.cpp
         source/glfw_window.h
         source/graphics.cpp
         source/graphics.h
+        source/utilities.cpp
+        source/utilities.h
 )
 target_link_libraries(BABOENGINE PRIVATE Vulkan::Vulkan)
 target_link_libraries(BABOENGINE PRIVATE glm)

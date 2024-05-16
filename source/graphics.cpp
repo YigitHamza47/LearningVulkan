@@ -16,7 +16,12 @@ namespace veng {
     }
 
     void Graphics::CreateInstance() {
-       gsl::span<gsl::czstring> suggested_Extension =  GetSuggestedInstanceExtensions();
+       gsl::span<gsl::czstring> suggested_extension =  GetSuggestedInstanceExtensions();
+
+       if(!AreaAllExtensionSupported(suggested_extension)){
+            std::exit(EXIT_FAILURE);
+       }
+
 
 
         VkApplicationInfo app_info = {};
@@ -33,8 +38,8 @@ namespace veng {
         instance_create_info.sType = VK_STRUCTURE_TYPE_INSTANCE_CREATE_INFO;
         instance_create_info.pNext = nullptr;
         instance_create_info.pApplicationInfo = &app_info;
-        instance_create_info.enabledExtensionCount = suggested_Extension.size();
-        instance_create_info.ppEnabledExtensionNames = suggested_Extension.data();
+        instance_create_info.enabledExtensionCount = suggested_extension.size();
+        instance_create_info.ppEnabledExtensionNames = suggested_extension.data();
         instance_create_info.enabledLayerCount = 0;
 
         VkResult result = vkCreateInstance(&instance_create_info, nullptr, &instance_);
@@ -52,14 +57,31 @@ namespace veng {
 
     std::vector<VkExtensionProperties> Graphics::GetSupportedInstanceExtensions() {
         std::uint32_t count;
-        vkEnumerateDeviceExtensionProperties(nullptr,&count, nullptr);
+        vkEnumerateInstanceExtensionProperties(nullptr, &count, nullptr);
 
         if(count == 0){return {};}
 
         std::vector<VkExtensionProperties> properties(count);
-        vkEnumerateDeviceExtensionProperties(nullptr,&count,properties.data());
+        vkEnumerateInstanceExtensionProperties(nullptr, &count, properties.data());
         return properties;
    }
+
+    bool Graphics::AreaAllExtensionSupported(gsl::span<gsl::czstring> extensions) {
+        std::vector<VkExtensionProperties> supported_extensions = GetSupportedInstanceExtensions();
+
+        auto is_supported_extensions = [&supported_extensions](gsl::czstring name){
+            return std::any_of(supported_extensions.begin(),supported_extensions.end()
+                    ,[name](const VkExtensionProperties&properties)
+                               {return veng::streq(properties.extensionName,name);
+                               }
+            );
+        };
+
+        return std::all_of(extensions.begin(),extensions.end(), is_supported_extensions);
+
+
+
+    }
 
 
 }

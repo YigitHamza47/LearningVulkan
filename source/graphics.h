@@ -21,7 +21,7 @@ namespace veng {
         void CreateInstance();
         static gsl::span<gsl::czstring> GetSuggestedInstanceExtensions();
         static std::vector<VkExtensionProperties> GetSupportedInstanceExtensions();
-
+        static bool AreaAllExtensionSupported(gsl::span<gsl::czstring> extensions);
 
         VkInstance instance_;
         gsl::not_null <Window*> window_;

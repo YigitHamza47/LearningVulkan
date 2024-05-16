@@ -91,6 +91,13 @@ build CMakeFiles/BABOENGINE.dir/source/graphics.cpp.obj: CXX_COMPILER__BABOENGIN
   OBJECT_DIR = CMakeFiles\BABOENGINE.dir
   OBJECT_FILE_DIR = CMakeFiles\BABOENGINE.dir\source
 
+build CMakeFiles/BABOENGINE.dir/source/utilities.cpp.obj: CXX_COMPILER__BABOENGINE_unscanned_Debug C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/source/utilities.cpp | CMakeFiles/BABOENGINE.dir/cmake_pch.hxx CMakeFiles/BABOENGINE.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_BABOENGINE
+  DEP_FILE = CMakeFiles\BABOENGINE.dir\source\utilities.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always -Winvalid-pch -include C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug/CMakeFiles/BABOENGINE.dir/cmake_pch.hxx
+  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug/_deps/glm-src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug/_deps/glfw-src/include -isystem C:/VulkanSDK/1.3.280.0/Include -isystem C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug/_deps/microsoft-gsl-src/include
+  OBJECT_DIR = CMakeFiles\BABOENGINE.dir
+  OBJECT_FILE_DIR = CMakeFiles\BABOENGINE.dir\source
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target BABOENGINE
@@ -99,7 +106,7 @@ build CMakeFiles/BABOENGINE.dir/source/graphics.cpp.obj: CXX_COMPILER__BABOENGIN
 #############################################
 # Link the executable BABOENGINE.exe
 
-build BABOENGINE.exe: CXX_EXECUTABLE_LINKER__BABOENGINE_Debug CMakeFiles/BABOENGINE.dir/source/main.cpp.obj CMakeFiles/BABOENGINE.dir/source/glfw_initilazition.cpp.obj CMakeFiles/BABOENGINE.dir/source/glfw_monitor.cpp.obj CMakeFiles/BABOENGINE.dir/source/glfw_window.cpp.obj CMakeFiles/BABOENGINE.dir/source/graphics.cpp.obj | C$:/VulkanSDK/1.3.280.0/Lib/vulkan-1.lib _deps/glm-build/glm/libglm.a _deps/glfw-build/src/libglfw3.a || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a
+build BABOENGINE.exe: CXX_EXECUTABLE_LINKER__BABOENGINE_Debug CMakeFiles/BABOENGINE.dir/source/main.cpp.obj CMakeFiles/BABOENGINE.dir/source/glfw_initilazition.cpp.obj CMakeFiles/BABOENGINE.dir/source/glfw_monitor.cpp.obj CMakeFiles/BABOENGINE.dir/source/glfw_window.cpp.obj CMakeFiles/BABOENGINE.dir/source/graphics.cpp.obj CMakeFiles/BABOENGINE.dir/source/utilities.cpp.obj | C$:/VulkanSDK/1.3.280.0/Lib/vulkan-1.lib _deps/glm-build/glm/libglm.a _deps/glfw-build/src/libglfw3.a || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a
   FLAGS = -g
   LINK_LIBRARIES = C:/VulkanSDK/1.3.280.0/Lib/vulkan-1.lib  _deps/glm-build/glm/libglm.a  _deps/glfw-build/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BABOENGINE.dir

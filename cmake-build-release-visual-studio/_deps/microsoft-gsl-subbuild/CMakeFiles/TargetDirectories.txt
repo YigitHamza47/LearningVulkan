@@ -1,0 +1,3 @@
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/microsoft-gsl-populate.dir
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/rebuild_cache.dir

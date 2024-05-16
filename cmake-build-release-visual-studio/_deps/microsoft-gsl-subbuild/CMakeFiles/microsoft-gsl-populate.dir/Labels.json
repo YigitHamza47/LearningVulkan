@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/microsoft-gsl-populate"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/microsoft-gsl-populate.rule"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/microsoft-gsl-subbuild/CMakeFiles/microsoft-gsl-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"microsoft-gsl-populate"
+		],
+		"name" : "microsoft-gsl-populate"
+	}
+}

@@ -1,6 +1,6 @@
 # ninja log v5
 23	1643	7373199507538962	_deps/glfw-build/src/CMakeFiles/glfw.dir/platform.c.obj	76f7a5e2bc993c40
-10	160	7373210927834295	CMakeFiles/BABOENGINE.dir/source/glfw_window.cpp.obj	d7936c6166232b7
+1746	1936	7373775955597054	CMakeFiles/BABOENGINE.dir/source/glfw_window.cpp.obj	d7936c6166232b7
 61	1652	7373199507579787	_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_module.c.obj	815db0229a33ef2d
 52	1677	7373199508094734	_deps/glfw-build/src/CMakeFiles/glfw.dir/null_window.c.obj	106a4fc4df7b9506
 47	1662	7373199507702927	_deps/glfw-build/src/CMakeFiles/glfw.dir/null_monitor.c.obj	785311ec8ef0f59a
@@ -10,7 +10,7 @@
 65	1675	7373199507944006	_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_time.c.obj	73d5874a51f82ae
 34	1676	7373199508072905	_deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.obj	80a81e6f4f4fd7bb
 56	1677	7373199508114800	_deps/glfw-build/src/CMakeFiles/glfw.dir/null_joystick.c.obj	67a30241992d81eb
-8	762	7373772070020022	CMakeFiles/BABOENGINE.dir/source/main.cpp.obj	68c65cedd38b389b
+8	288	7373779905257356	CMakeFiles/BABOENGINE.dir/source/main.cpp.obj	68c65cedd38b389b
 31	1678	7373199508387813	_deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.obj	9b6027c063c4b45a
 14	1678	7373199508587903	_deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.obj	767f9cadbe95f635
 72	1678	7373199508628394	_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_thread.c.obj	757d0065f830ab4d
@@ -25,19 +25,9 @@
 1669	2636	7373199518498232	_deps/glfw-build/src/CMakeFiles/glfw.dir/wgl_context.c.obj	50f88f0aea17355e
 1663	2654	7373199518868911	_deps/glfw-build/src/CMakeFiles/glfw.dir/win32_window.c.obj	34dbe6a1c6710493
 2654	2734	7373199519679559	_deps/glfw-build/src/libglfw3.a	14d1c50644bf7d63
-2	3039	7373199522615637	CMakeFiles/BABOENGINE.dir/cmake_pch.hxx.gch	ab15f17fbe76710a
-3046	3230	7373199524644746	CMakeFiles/BABOENGINE.dir/source/glfw_monitor.cpp.obj	b87cf8ecd5d1a4cb
-3043	3233	7373199524675039	CMakeFiles/BABOENGINE.dir/source/glfw_initilazition.cpp.obj	e722b1fec77dbb6c
-58	768	7373772070070024	CMakeFiles/BABOENGINE.dir/source/graphics.cpp.obj	7e022915ecd5a21b
-768	1084	7373772073195359	BABOENGINE.exe	8bf5f05d660f4f6d
 8	1738	7373775953523174	CMakeFiles/BABOENGINE.dir/cmake_pch.hxx.gch	ab15f17fbe76710a
-1741	1926	7373775955496894	CMakeFiles/BABOENGINE.dir/source/glfw_initilazition.cpp.obj	e722b1fec77dbb6c
 1744	1928	7373775955516898	CMakeFiles/BABOENGINE.dir/source/glfw_monitor.cpp.obj	b87cf8ecd5d1a4cb
-1746	1936	7373775955597054	CMakeFiles/BABOENGINE.dir/source/glfw_window.cpp.obj	d7936c6166232b7
-1739	2016	7373775956408930	CMakeFiles/BABOENGINE.dir/source/main.cpp.obj	68c65cedd38b389b
-1750	2101	7373775957244246	CMakeFiles/BABOENGINE.dir/source/graphics.cpp.obj	7e022915ecd5a21b
-7	153	7373776213391870	CMakeFiles/BABOENGINE.dir/source/utilities.cpp.obj	e09efbade4e45637
-153	264	7373776214464510	BABOENGINE.exe	7b482e6a94174b1e
-8	288	7373779905257356	CMakeFiles/BABOENGINE.dir/source/main.cpp.obj	68c65cedd38b389b
+1741	1926	7373775955496894	CMakeFiles/BABOENGINE.dir/source/glfw_initilazition.cpp.obj	e722b1fec77dbb6c
 13	356	7373779905937910	CMakeFiles/BABOENGINE.dir/source/graphics.cpp.obj	7e022915ecd5a21b
 356	469	7373779907023428	BABOENGINE.exe	7b482e6a94174b1e
+7	153	7373776213391870	CMakeFiles/BABOENGINE.dir/source/utilities.cpp.obj	e09efbade4e45637

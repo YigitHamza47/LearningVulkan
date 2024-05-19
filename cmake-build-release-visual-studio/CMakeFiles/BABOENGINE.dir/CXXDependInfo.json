@@ -1,0 +1,24 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : {},
+	"dir-cur-bld" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio",
+	"dir-cur-src" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan",
+	"dir-top-bld" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio",
+	"dir-top-src" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"_deps\\glm-src",
+		"_deps\\glfw-src\\include",
+		"C:\\VulkanSDK\\1.3.280.0\\Include",
+		"_deps\\microsoft-gsl-src\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/CMakeFiles/BABOENGINE.dir"
+}

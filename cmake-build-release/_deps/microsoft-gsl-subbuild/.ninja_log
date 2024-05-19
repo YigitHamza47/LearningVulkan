@@ -1,0 +1,21 @@
+# ninja log v5
+2	104	7375440343918047	microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-mkdir	13d673294fa832f6
+2	104	7375440343918047	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-mkdir	13d673294fa832f6
+104	2976	7375440372653910	microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-download	bc4996261833ab8f
+104	2976	7375440372653910	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-download	bc4996261833ab8f
+2981	3135	0	microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-update	774ec73e6d5cefa6
+2981	3135	0	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-update	774ec73e6d5cefa6
+3135	3209	7375440374979742	microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-patch	4841b6563dfd09de
+3135	3209	7375440374979742	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-patch	4841b6563dfd09de
+3210	3283	7375440375717501	microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-configure	c61900e12ee5edc5
+3210	3283	7375440375717501	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-configure	c61900e12ee5edc5
+3283	3353	7375440376409328	microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-build	53b4206c0bf4d3a4
+3283	3353	7375440376409328	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-build	53b4206c0bf4d3a4
+3353	3421	7375440377113839	microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-install	d1ce6eef86fd36cf
+3353	3421	7375440377113839	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-install	d1ce6eef86fd36cf
+3421	3490	7375440377789853	microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-test	e0b35056ff923082
+3421	3490	7375440377789853	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-test	e0b35056ff923082
+3490	3571	7375440378606039	CMakeFiles/microsoft-gsl-populate-complete	132413f71218faad
+3490	3571	7375440378606039	microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-done	132413f71218faad
+3490	3571	7375440378606039	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/CMakeFiles/microsoft-gsl-populate-complete	132413f71218faad
+3490	3571	7375440378606039	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-done	132413f71218faad

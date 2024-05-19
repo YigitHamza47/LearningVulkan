@@ -1,0 +1,14 @@
+# Target labels
+ microsoft-gsl-populate
+# Source files and their labels
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/CMakeFiles/microsoft-gsl-populate
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/CMakeFiles/microsoft-gsl-populate.rule
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/CMakeFiles/microsoft-gsl-populate-complete.rule
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-build.rule
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-configure.rule
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-download.rule
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-install.rule
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-mkdir.rule
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-patch.rule
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-test.rule
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-subbuild/microsoft-gsl-populate-prefix/src/microsoft-gsl-populate-stamp/microsoft-gsl-populate-update.rule

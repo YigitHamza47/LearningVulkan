@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\BABOENGINE.dir\\source\\glfw_window.cpp.obj",
+            "outputs": [
+                "CMakeFiles\\BABOENGINE.dir\\source\\glfw_window.cpp.obj.ddi",
+                "C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/CMakeFiles/BABOENGINE.dir/./cmake_pch.cxx.pch"
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+# ninja log v5
+2	74	7375440170436535	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir	6479cdf686deeaa8
+2	74	7375440170436535	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-mkdir	6479cdf686deeaa8
+74	11370	7375440283407662	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download	e42135b96281f81e
+74	11370	7375440283407662	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-download	e42135b96281f81e
+11376	11526	0	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update	459b4a014c734409
+11376	11526	0	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-update	459b4a014c734409
+11526	11595	7375440285663278	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch	d7f846ea0b796dc0
+11526	11595	7375440285663278	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-patch	d7f846ea0b796dc0
+11596	11658	7375440286278015	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure	e8e94f6e0a9ce760
+11596	11658	7375440286278015	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-configure	e8e94f6e0a9ce760
+11658	11724	7375440286941225	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build	f8dbeb90eac257a
+11658	11724	7375440286941225	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-build	f8dbeb90eac257a
+11724	11783	7375440287541607	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install	955e765b994b972f
+11724	11783	7375440287541607	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-install	955e765b994b972f
+11783	11844	7375440288151568	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test	6dfe3ca2de907b77
+11783	11844	7375440288151568	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-test	6dfe3ca2de907b77
+11844	11933	7375440289043192	CMakeFiles/glfw-populate-complete	eee4ac83c4b9bd29
+11844	11933	7375440289043192	glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-done	eee4ac83c4b9bd29
+11844	11933	7375440289043192	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-subbuild/CMakeFiles/glfw-populate-complete	eee4ac83c4b9bd29
+11844	11933	7375440289043192	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/glfw-populate-done	eee4ac83c4b9bd29

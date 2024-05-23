@@ -16,3 +16,6 @@ C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-stud
 C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-build/CMakeFiles/INSTALL.dir
 C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-build/CMakeFiles/ALL_BUILD.dir
 C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/microsoft-gsl-build/include/CMakeFiles/INSTALL.dir
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/spdlog-build/CMakeFiles/spdlog.dir
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/spdlog-build/CMakeFiles/INSTALL.dir
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/spdlog-build/CMakeFiles/ALL_BUILD.dir

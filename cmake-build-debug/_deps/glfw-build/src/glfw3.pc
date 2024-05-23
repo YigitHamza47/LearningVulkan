@@ -1,7 +1,7 @@
-prefix=C:/Program Files (x86)/LearningVulkan
+prefix=C:/Program Files (x86)/BABOENGINE
 exec_prefix=${prefix}
-includedir=C:/Program Files (x86)/LearningVulkan/include
-libdir=C:/Program Files (x86)/LearningVulkan/lib
+includedir=C:/Program Files (x86)/BABOENGINE/include
+libdir=C:/Program Files (x86)/BABOENGINE/lib
 
 Name: GLFW
 Description: A multi-platform library for OpenGL, window and input

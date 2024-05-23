@@ -27,6 +27,15 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(Microsoft-gsl)
 
+FetchContent_Declare(
+        spdlog
+        GIT_REPOSITORY "https://github.com/gabime/spdlog.git"
+        GIT_TAG "v1.12.0"
+        GIT_SHALLOW TRUE
+)
+FetchContent_MakeAvailable(spdlog)
+
+
 
 
 find_package(Vulkan REQUIRED)
@@ -48,6 +57,8 @@ target_link_libraries(BABOENGINE PRIVATE Vulkan::Vulkan)
 target_link_libraries(BABOENGINE PRIVATE glm)
 target_link_libraries(BABOENGINE PRIVATE glfw)
 target_link_libraries(BABOENGINE PRIVATE Microsoft.GSL::GSL)
+target_link_libraries(BABOENGINE PRIVATE spdlog)
+
 
 target_precompile_headers(BABOENGINE PRIVATE source/precomp.h)
 

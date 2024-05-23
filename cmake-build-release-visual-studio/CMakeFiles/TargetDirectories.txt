@@ -43,3 +43,9 @@ C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-st
 C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/microsoft-gsl-build/include/CMakeFiles/list_install_components.dir
 C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/microsoft-gsl-build/include/CMakeFiles/install.dir
 C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/microsoft-gsl-build/include/CMakeFiles/install/local.dir
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/spdlog-build/CMakeFiles/spdlog.dir
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/spdlog-build/CMakeFiles/edit_cache.dir
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/spdlog-build/CMakeFiles/rebuild_cache.dir
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/spdlog-build/CMakeFiles/list_install_components.dir
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/spdlog-build/CMakeFiles/install.dir
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release-visual-studio/_deps/spdlog-build/CMakeFiles/install/local.dir

@@ -47,70 +47,63 @@ cmake_ninja_workdir = C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-
 #############################################
 # Order-only phony target for BABOENGINE
 
-build cmake_object_order_depends_target_BABOENGINE: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_glm
+build cmake_object_order_depends_target_BABOENGINE: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_glm cmake_object_order_depends_target_spdlog
 
 build CMakeFiles/BABOENGINE.dir/cmake_pch.hxx.gch: CXX_COMPILER__BABOENGINE_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/CMakeFiles/BABOENGINE.dir/cmake_pch.hxx.cxx | CMakeFiles/BABOENGINE.dir/cmake_pch.hxx || cmake_object_order_depends_target_BABOENGINE
+  DEFINES = -DSPDLOG_COMPILED_LIB
   DEP_FILE = CMakeFiles\BABOENGINE.dir\cmake_pch.hxx.gch.d
   FLAGS = -O3 -DNDEBUG -std=gnu++20 -fdiagnostics-color=always -Winvalid-pch -x c++-header -include C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/CMakeFiles/BABOENGINE.dir/cmake_pch.hxx
-  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glm-src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -isystem C:/VulkanSDK/1.3.280.0/Include -isystem C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-src/include
+  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glm-src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/include -isystem C:/VulkanSDK/1.3.280.0/Include -isystem C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-src/include
   OBJECT_DIR = CMakeFiles\BABOENGINE.dir
   OBJECT_FILE_DIR = CMakeFiles\BABOENGINE.dir
-  TARGET_COMPILE_PDB = CMakeFiles\BABOENGINE.dir\
-  TARGET_PDB = BABOENGINE.pdb
 
 build CMakeFiles/BABOENGINE.dir/source/main.cpp.obj: CXX_COMPILER__BABOENGINE_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/source/main.cpp | CMakeFiles/BABOENGINE.dir/cmake_pch.hxx CMakeFiles/BABOENGINE.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_BABOENGINE
+  DEFINES = -DSPDLOG_COMPILED_LIB
   DEP_FILE = CMakeFiles\BABOENGINE.dir\source\main.cpp.obj.d
   FLAGS = -O3 -DNDEBUG -std=gnu++20 -fdiagnostics-color=always -Winvalid-pch -include C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/CMakeFiles/BABOENGINE.dir/cmake_pch.hxx
-  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glm-src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -isystem C:/VulkanSDK/1.3.280.0/Include -isystem C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-src/include
+  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glm-src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/include -isystem C:/VulkanSDK/1.3.280.0/Include -isystem C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-src/include
   OBJECT_DIR = CMakeFiles\BABOENGINE.dir
   OBJECT_FILE_DIR = CMakeFiles\BABOENGINE.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\BABOENGINE.dir\
-  TARGET_PDB = BABOENGINE.pdb
 
 build CMakeFiles/BABOENGINE.dir/source/glfw_initilazition.cpp.obj: CXX_COMPILER__BABOENGINE_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/source/glfw_initilazition.cpp | CMakeFiles/BABOENGINE.dir/cmake_pch.hxx CMakeFiles/BABOENGINE.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_BABOENGINE
+  DEFINES = -DSPDLOG_COMPILED_LIB
   DEP_FILE = CMakeFiles\BABOENGINE.dir\source\glfw_initilazition.cpp.obj.d
   FLAGS = -O3 -DNDEBUG -std=gnu++20 -fdiagnostics-color=always -Winvalid-pch -include C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/CMakeFiles/BABOENGINE.dir/cmake_pch.hxx
-  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glm-src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -isystem C:/VulkanSDK/1.3.280.0/Include -isystem C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-src/include
+  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glm-src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/include -isystem C:/VulkanSDK/1.3.280.0/Include -isystem C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-src/include
   OBJECT_DIR = CMakeFiles\BABOENGINE.dir
   OBJECT_FILE_DIR = CMakeFiles\BABOENGINE.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\BABOENGINE.dir\
-  TARGET_PDB = BABOENGINE.pdb
 
 build CMakeFiles/BABOENGINE.dir/source/glfw_monitor.cpp.obj: CXX_COMPILER__BABOENGINE_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/source/glfw_monitor.cpp | CMakeFiles/BABOENGINE.dir/cmake_pch.hxx CMakeFiles/BABOENGINE.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_BABOENGINE
+  DEFINES = -DSPDLOG_COMPILED_LIB
   DEP_FILE = CMakeFiles\BABOENGINE.dir\source\glfw_monitor.cpp.obj.d
   FLAGS = -O3 -DNDEBUG -std=gnu++20 -fdiagnostics-color=always -Winvalid-pch -include C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/CMakeFiles/BABOENGINE.dir/cmake_pch.hxx
-  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glm-src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -isystem C:/VulkanSDK/1.3.280.0/Include -isystem C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-src/include
+  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glm-src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/include -isystem C:/VulkanSDK/1.3.280.0/Include -isystem C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-src/include
   OBJECT_DIR = CMakeFiles\BABOENGINE.dir
   OBJECT_FILE_DIR = CMakeFiles\BABOENGINE.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\BABOENGINE.dir\
-  TARGET_PDB = BABOENGINE.pdb
 
 build CMakeFiles/BABOENGINE.dir/source/glfw_window.cpp.obj: CXX_COMPILER__BABOENGINE_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/source/glfw_window.cpp | CMakeFiles/BABOENGINE.dir/cmake_pch.hxx CMakeFiles/BABOENGINE.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_BABOENGINE
+  DEFINES = -DSPDLOG_COMPILED_LIB
   DEP_FILE = CMakeFiles\BABOENGINE.dir\source\glfw_window.cpp.obj.d
   FLAGS = -O3 -DNDEBUG -std=gnu++20 -fdiagnostics-color=always -Winvalid-pch -include C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/CMakeFiles/BABOENGINE.dir/cmake_pch.hxx
-  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glm-src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -isystem C:/VulkanSDK/1.3.280.0/Include -isystem C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-src/include
+  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glm-src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/include -isystem C:/VulkanSDK/1.3.280.0/Include -isystem C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-src/include
   OBJECT_DIR = CMakeFiles\BABOENGINE.dir
   OBJECT_FILE_DIR = CMakeFiles\BABOENGINE.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\BABOENGINE.dir\
-  TARGET_PDB = BABOENGINE.pdb
 
 build CMakeFiles/BABOENGINE.dir/source/graphics.cpp.obj: CXX_COMPILER__BABOENGINE_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/source/graphics.cpp | CMakeFiles/BABOENGINE.dir/cmake_pch.hxx CMakeFiles/BABOENGINE.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_BABOENGINE
+  DEFINES = -DSPDLOG_COMPILED_LIB
   DEP_FILE = CMakeFiles\BABOENGINE.dir\source\graphics.cpp.obj.d
   FLAGS = -O3 -DNDEBUG -std=gnu++20 -fdiagnostics-color=always -Winvalid-pch -include C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/CMakeFiles/BABOENGINE.dir/cmake_pch.hxx
-  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glm-src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -isystem C:/VulkanSDK/1.3.280.0/Include -isystem C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-src/include
+  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glm-src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/include -isystem C:/VulkanSDK/1.3.280.0/Include -isystem C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-src/include
   OBJECT_DIR = CMakeFiles\BABOENGINE.dir
   OBJECT_FILE_DIR = CMakeFiles\BABOENGINE.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\BABOENGINE.dir\
-  TARGET_PDB = BABOENGINE.pdb
 
 build CMakeFiles/BABOENGINE.dir/source/utilities.cpp.obj: CXX_COMPILER__BABOENGINE_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/source/utilities.cpp | CMakeFiles/BABOENGINE.dir/cmake_pch.hxx CMakeFiles/BABOENGINE.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_BABOENGINE
+  DEFINES = -DSPDLOG_COMPILED_LIB
   DEP_FILE = CMakeFiles\BABOENGINE.dir\source\utilities.cpp.obj.d
   FLAGS = -O3 -DNDEBUG -std=gnu++20 -fdiagnostics-color=always -Winvalid-pch -include C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/CMakeFiles/BABOENGINE.dir/cmake_pch.hxx
-  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glm-src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -isystem C:/VulkanSDK/1.3.280.0/Include -isystem C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-src/include
+  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glm-src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/include -isystem C:/VulkanSDK/1.3.280.0/Include -isystem C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/microsoft-gsl-src/include
   OBJECT_DIR = CMakeFiles\BABOENGINE.dir
   OBJECT_FILE_DIR = CMakeFiles\BABOENGINE.dir\source
-  TARGET_COMPILE_PDB = CMakeFiles\BABOENGINE.dir\
-  TARGET_PDB = BABOENGINE.pdb
 
 
 # =============================================================================
@@ -120,16 +113,15 @@ build CMakeFiles/BABOENGINE.dir/source/utilities.cpp.obj: CXX_COMPILER__BABOENGI
 #############################################
 # Link the executable BABOENGINE.exe
 
-build BABOENGINE.exe: CXX_EXECUTABLE_LINKER__BABOENGINE_Release CMakeFiles/BABOENGINE.dir/source/main.cpp.obj CMakeFiles/BABOENGINE.dir/source/glfw_initilazition.cpp.obj CMakeFiles/BABOENGINE.dir/source/glfw_monitor.cpp.obj CMakeFiles/BABOENGINE.dir/source/glfw_window.cpp.obj CMakeFiles/BABOENGINE.dir/source/graphics.cpp.obj CMakeFiles/BABOENGINE.dir/source/utilities.cpp.obj | C$:/VulkanSDK/1.3.280.0/Lib/vulkan-1.lib _deps/glm-build/glm/libglm.a _deps/glfw-build/src/libglfw3.a || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a
+build BABOENGINE.exe: CXX_EXECUTABLE_LINKER__BABOENGINE_Release CMakeFiles/BABOENGINE.dir/source/main.cpp.obj CMakeFiles/BABOENGINE.dir/source/glfw_initilazition.cpp.obj CMakeFiles/BABOENGINE.dir/source/glfw_monitor.cpp.obj CMakeFiles/BABOENGINE.dir/source/glfw_window.cpp.obj CMakeFiles/BABOENGINE.dir/source/graphics.cpp.obj CMakeFiles/BABOENGINE.dir/source/utilities.cpp.obj | C$:/VulkanSDK/1.3.280.0/Lib/vulkan-1.lib _deps/glm-build/glm/libglm.a _deps/glfw-build/src/libglfw3.a _deps/spdlog-build/libspdlog.a || _deps/glfw-build/src/libglfw3.a _deps/glm-build/glm/libglm.a _deps/spdlog-build/libspdlog.a
   FLAGS = -O3 -DNDEBUG
-  LINK_LIBRARIES = C:/VulkanSDK/1.3.280.0/Lib/vulkan-1.lib  _deps/glm-build/glm/libglm.a  _deps/glfw-build/src/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = C:/VulkanSDK/1.3.280.0/Lib/vulkan-1.lib  _deps/glm-build/glm/libglm.a  _deps/glfw-build/src/libglfw3.a  _deps/spdlog-build/libspdlog.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BABOENGINE.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\BABOENGINE.dir\
   TARGET_FILE = BABOENGINE.exe
   TARGET_IMPLIB = libBABOENGINE.dll.a
-  TARGET_PDB = BABOENGINE.pdb
+  TARGET_PDB = BABOENGINE.exe.dbg
 
 
 #############################################
@@ -286,8 +278,6 @@ build _deps/glm-build/glm/CMakeFiles/glm.dir/detail/glm.cpp.obj: CXX_COMPILER__g
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glm-src
   OBJECT_DIR = _deps\glm-build\glm\CMakeFiles\glm.dir
   OBJECT_FILE_DIR = _deps\glm-build\glm\CMakeFiles\glm.dir\detail
-  TARGET_COMPILE_PDB = _deps\glm-build\glm\CMakeFiles\glm.dir\glm.pdb
-  TARGET_PDB = _deps\glm-build\glm\libglm.pdb
 
 
 # =============================================================================
@@ -302,9 +292,8 @@ build _deps/glm-build/glm/libglm.a: CXX_STATIC_LIBRARY_LINKER__glm_Release _deps
   OBJECT_DIR = _deps\glm-build\glm\CMakeFiles\glm.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glm-build\glm\CMakeFiles\glm.dir\glm.pdb
   TARGET_FILE = _deps\glm-build\glm\libglm.a
-  TARGET_PDB = _deps\glm-build\glm\libglm.pdb
+  TARGET_PDB = glm.a.dbg
 
 
 #############################################
@@ -475,8 +464,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_u
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -485,8 +472,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unsc
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/input.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -495,8 +480,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_uns
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -505,8 +488,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_u
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/platform.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -515,8 +496,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/platform.c.obj: C_COMPILER__glfw_
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/vulkan.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -525,8 +504,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_un
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -535,8 +512,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_un
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/egl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -545,8 +520,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__gl
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/osmesa_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -555,8 +528,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER_
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/null_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -565,8 +536,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_init.c.obj: C_COMPILER__glfw
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/null_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -575,8 +544,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_monitor.c.obj: C_COMPILER__g
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/null_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -585,8 +552,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_window.c.obj: C_COMPILER__gl
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/null_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -595,8 +560,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/null_joystick.c.obj: C_COMPILER__
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/win32_module.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -605,8 +568,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_module.c.obj: C_COMPILER__g
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/win32_time.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -615,8 +576,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glf
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/win32_thread.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -625,8 +584,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__g
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/win32_init.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -635,8 +592,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glf
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/win32_joystick.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -645,8 +600,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER_
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/win32_monitor.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -655,8 +608,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/win32_window.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -665,8 +616,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__g
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 build _deps/glfw-build/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src/wgl_context.c || cmake_object_order_depends_target_glfw
   DEFINES = -DUNICODE -DWINVER=0x0501 -D_GLFW_WIN32 -D_UNICODE
@@ -675,8 +624,6 @@ build _deps/glfw-build/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__gl
   INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/include -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-src/src -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/glfw-build/src
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   OBJECT_FILE_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
 
 
 # =============================================================================
@@ -691,9 +638,8 @@ build _deps/glfw-build/src/libglfw3.a: C_STATIC_LIBRARY_LINKER__glfw_Release _de
   OBJECT_DIR = _deps\glfw-build\src\CMakeFiles\glfw.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = _deps\glfw-build\src\CMakeFiles\glfw.dir\glfw.pdb
   TARGET_FILE = _deps\glfw-build\src\libglfw3.a
-  TARGET_PDB = _deps\glfw-build\src\libglfw3.pdb
+  TARGET_PDB = glfw3.a.dbg
 
 
 #############################################
@@ -985,6 +931,157 @@ build _deps/microsoft-gsl-build/include/CMakeFiles/install/strip.util: CUSTOM_CO
 build _deps/microsoft-gsl-build/include/install/strip: phony _deps/microsoft-gsl-build/include/CMakeFiles/install/strip.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target spdlog
+
+
+#############################################
+# Order-only phony target for spdlog
+
+build cmake_object_order_depends_target_spdlog: phony || _deps/spdlog-build/CMakeFiles/spdlog.dir
+
+build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj: CXX_COMPILER__spdlog_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/src/spdlog.cpp || cmake_object_order_depends_target_spdlog
+  DEFINES = -DSPDLOG_COMPILED_LIB
+  DEP_FILE = _deps\spdlog-build\CMakeFiles\spdlog.dir\src\spdlog.cpp.obj.d
+  FLAGS = -O3 -DNDEBUG -std=c++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/include
+  OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
+  OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
+
+build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj: CXX_COMPILER__spdlog_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/src/stdout_sinks.cpp || cmake_object_order_depends_target_spdlog
+  DEFINES = -DSPDLOG_COMPILED_LIB
+  DEP_FILE = _deps\spdlog-build\CMakeFiles\spdlog.dir\src\stdout_sinks.cpp.obj.d
+  FLAGS = -O3 -DNDEBUG -std=c++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/include
+  OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
+  OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
+
+build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj: CXX_COMPILER__spdlog_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/src/color_sinks.cpp || cmake_object_order_depends_target_spdlog
+  DEFINES = -DSPDLOG_COMPILED_LIB
+  DEP_FILE = _deps\spdlog-build\CMakeFiles\spdlog.dir\src\color_sinks.cpp.obj.d
+  FLAGS = -O3 -DNDEBUG -std=c++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/include
+  OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
+  OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
+
+build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj: CXX_COMPILER__spdlog_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/src/file_sinks.cpp || cmake_object_order_depends_target_spdlog
+  DEFINES = -DSPDLOG_COMPILED_LIB
+  DEP_FILE = _deps\spdlog-build\CMakeFiles\spdlog.dir\src\file_sinks.cpp.obj.d
+  FLAGS = -O3 -DNDEBUG -std=c++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/include
+  OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
+  OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
+
+build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.obj: CXX_COMPILER__spdlog_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/src/async.cpp || cmake_object_order_depends_target_spdlog
+  DEFINES = -DSPDLOG_COMPILED_LIB
+  DEP_FILE = _deps\spdlog-build\CMakeFiles\spdlog.dir\src\async.cpp.obj.d
+  FLAGS = -O3 -DNDEBUG -std=c++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/include
+  OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
+  OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
+
+build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.obj: CXX_COMPILER__spdlog_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/src/cfg.cpp || cmake_object_order_depends_target_spdlog
+  DEFINES = -DSPDLOG_COMPILED_LIB
+  DEP_FILE = _deps\spdlog-build\CMakeFiles\spdlog.dir\src\cfg.cpp.obj.d
+  FLAGS = -O3 -DNDEBUG -std=c++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/include
+  OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
+  OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
+
+build _deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.obj: CXX_COMPILER__spdlog_unscanned_Release C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/src/bundled_fmtlib_format.cpp || cmake_object_order_depends_target_spdlog
+  DEFINES = -DSPDLOG_COMPILED_LIB
+  DEP_FILE = _deps\spdlog-build\CMakeFiles\spdlog.dir\src\bundled_fmtlib_format.cpp.obj.d
+  FLAGS = -O3 -DNDEBUG -std=c++20 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-src/include
+  OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
+  OBJECT_FILE_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir\src
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target spdlog
+
+
+#############################################
+# Link the static library _deps\spdlog-build\libspdlog.a
+
+build _deps/spdlog-build/libspdlog.a: CXX_STATIC_LIBRARY_LINKER__spdlog_Release _deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj _deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj _deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj _deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj _deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.obj _deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.obj _deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.obj
+  LANGUAGE_COMPILE_FLAGS = -O3 -DNDEBUG
+  OBJECT_DIR = _deps\spdlog-build\CMakeFiles\spdlog.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = _deps\spdlog-build\libspdlog.a
+  TARGET_PDB = spdlog.a.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build _deps/spdlog-build/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-release\_deps\spdlog-build && C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build _deps/spdlog-build/edit_cache: phony _deps/spdlog-build/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build _deps/spdlog-build/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-release\_deps\spdlog-build && C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\yigit\Desktop\projeler\C++\LearningVulkan -BC:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-release"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build _deps/spdlog-build/rebuild_cache: phony _deps/spdlog-build/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build _deps/spdlog-build/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build _deps/spdlog-build/CMakeFiles/install.util: CUSTOM_COMMAND _deps/spdlog-build/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-release\_deps\spdlog-build && C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build _deps/spdlog-build/install: phony _deps/spdlog-build/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build _deps/spdlog-build/CMakeFiles/install/local.util: CUSTOM_COMMAND _deps/spdlog-build/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-release\_deps\spdlog-build && C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build _deps/spdlog-build/install/local: phony _deps/spdlog-build/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build _deps/spdlog-build/CMakeFiles/install/strip.util: CUSTOM_COMMAND _deps/spdlog-build/all
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-release\_deps\spdlog-build && C:\Users\yigit\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build _deps/spdlog-build/install/strip: phony _deps/spdlog-build/CMakeFiles/install/strip.util
+
+# =============================================================================
 # Target aliases.
 
 build BABOENGINE: phony BABOENGINE.exe
@@ -996,6 +1093,10 @@ build glm: phony _deps/glm-build/glm/libglm.a
 build libglfw3.a: phony _deps/glfw-build/src/libglfw3.a
 
 build libglm.a: phony _deps/glm-build/glm/libglm.a
+
+build libspdlog.a: phony _deps/spdlog-build/libspdlog.a
+
+build spdlog: phony _deps/spdlog-build/libspdlog.a
 
 build uninstall: phony _deps/glfw-build/uninstall
 
@@ -1009,7 +1110,7 @@ build update_mappings: phony _deps/glfw-build/src/update_mappings
 #############################################
 # Folder: C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release
 
-build all: phony BABOENGINE.exe _deps/glm-build/all _deps/glfw-build/all _deps/microsoft-gsl-build/all
+build all: phony BABOENGINE.exe _deps/glm-build/all _deps/glfw-build/all _deps/microsoft-gsl-build/all _deps/spdlog-build/all
 
 # =============================================================================
 
@@ -1061,20 +1162,27 @@ build _deps/microsoft-gsl-build/all: phony _deps/microsoft-gsl-build/include/all
 build _deps/microsoft-gsl-build/include/all: phony
 
 # =============================================================================
+
+#############################################
+# Folder: C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-release/_deps/spdlog-build
+
+build _deps/spdlog-build/all: phony _deps/spdlog-build/libspdlog.a
+
+# =============================================================================
 # Built-in targets
 
 
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDependentOption.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCCompiler.cmake.in C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystem.cmake.in C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestRCCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FetchContent.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FetchContent/CMakeLists.cmake.in C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindDoxygen.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindGit.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindVulkan.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/GNUInstallDirs.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Determine-CXX.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake _deps/glfw-src/CMakeLists.txt _deps/glfw-src/CMake/cmake_uninstall.cmake.in _deps/glfw-src/CMake/glfw3.pc.in _deps/glfw-src/CMake/glfw3Config.cmake.in _deps/glfw-src/docs/CMakeLists.txt _deps/glfw-src/src/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt _deps/microsoft-gsl-src/CMakeLists.txt _deps/microsoft-gsl-src/cmake/guidelineSupportLibrary.cmake _deps/microsoft-gsl-src/include/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDependentOption.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FetchContent.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FetchContent/CMakeLists.cmake.in C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindDoxygen.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindGit.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindVulkan.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/GNUInstallDirs.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake _deps/glfw-src/CMakeLists.txt _deps/glfw-src/CMake/cmake_uninstall.cmake.in _deps/glfw-src/CMake/glfw3.pc.in _deps/glfw-src/CMake/glfw3Config.cmake.in _deps/glfw-src/docs/CMakeLists.txt _deps/glfw-src/src/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt _deps/microsoft-gsl-src/CMakeLists.txt _deps/microsoft-gsl-src/cmake/guidelineSupportLibrary.cmake _deps/microsoft-gsl-src/include/CMakeLists.txt _deps/spdlog-src/CMakeLists.txt _deps/spdlog-src/cmake/ide.cmake _deps/spdlog-src/cmake/utils.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompiler.cmake.in C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDependentOption.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCCompiler.cmake.in C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystem.cmake.in C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCompilerCommon.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestRCCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/HP-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XL-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FetchContent.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FetchContent/CMakeLists.cmake.in C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindDoxygen.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindGit.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindVulkan.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/GNUInstallDirs.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/FeatureTesting.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Determine-CXX.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake _deps/glfw-src/CMakeLists.txt _deps/glfw-src/CMake/cmake_uninstall.cmake.in _deps/glfw-src/CMake/glfw3.pc.in _deps/glfw-src/CMake/glfw3Config.cmake.in _deps/glfw-src/docs/CMakeLists.txt _deps/glfw-src/src/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt _deps/microsoft-gsl-src/CMakeLists.txt _deps/microsoft-gsl-src/cmake/guidelineSupportLibrary.cmake _deps/microsoft-gsl-src/include/CMakeLists.txt: phony
+build C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDependentOption.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FetchContent.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FetchContent/CMakeLists.cmake.in C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindDoxygen.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindGit.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindVulkan.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/GNUInstallDirs.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake C$:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake C$:/Users/yigit/Desktop/projeler/C++/LearningVulkan/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake _deps/glfw-src/CMakeLists.txt _deps/glfw-src/CMake/cmake_uninstall.cmake.in _deps/glfw-src/CMake/glfw3.pc.in _deps/glfw-src/CMake/glfw3Config.cmake.in _deps/glfw-src/docs/CMakeLists.txt _deps/glfw-src/src/CMakeLists.txt _deps/glm-src/CMakeLists.txt _deps/glm-src/glm/CMakeLists.txt _deps/microsoft-gsl-src/CMakeLists.txt _deps/microsoft-gsl-src/cmake/guidelineSupportLibrary.cmake _deps/microsoft-gsl-src/include/CMakeLists.txt _deps/spdlog-src/CMakeLists.txt _deps/spdlog-src/cmake/ide.cmake _deps/spdlog-src/cmake/utils.cmake: phony
 
 
 #############################################

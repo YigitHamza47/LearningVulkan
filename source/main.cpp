@@ -9,8 +9,6 @@ std::int32_t main(std::int32_t argc, gsl::zstring* argv) {
     veng::Window window("Babo engine",{800,500});
 
 
-
-
     while(!window.ShouldClose()){
         glfwPollEvents();
     }

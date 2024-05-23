@@ -1,0 +1,21 @@
+# ninja log v5
+2	47	7381613187005068	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir	5b22279dd30577e8
+2	47	7381613187005068	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir	5b22279dd30577e8
+47	22512	7381613411667897	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download	469e0c26d6907344
+47	22512	7381613411667897	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download	469e0c26d6907344
+22513	22596	0	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update	e7c909c16ab1d784
+22513	22596	0	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update	e7c909c16ab1d784
+22596	22633	7381613412862088	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch	83bc82265a1be13d
+22596	22633	7381613412862088	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch	83bc82265a1be13d
+22633	22667	7381613413217841	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure	13f8c4e978aecbc2
+22633	22667	7381613413217841	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure	13f8c4e978aecbc2
+22667	22702	7381613413566546	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build	5054f91f5887dc12
+22667	22702	7381613413566546	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build	5054f91f5887dc12
+22702	22737	7381613413916453	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install	2ba3dceb168a084a
+22702	22737	7381613413916453	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install	2ba3dceb168a084a
+22737	22774	7381613414281830	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test	edb8351b29f76d02
+22737	22774	7381613414281830	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test	edb8351b29f76d02
+22774	22824	7381613414783661	CMakeFiles/spdlog-populate-complete	8ba39342c32999a6
+22774	22824	7381613414783661	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-done	8ba39342c32999a6
+22774	22824	7381613414783661	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate-complete	8ba39342c32999a6
+22774	22824	7381613414783661	C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-done	8ba39342c32999a6

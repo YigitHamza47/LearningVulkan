@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+C:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+C:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake
+C:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake
+C:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake
+C:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/spdlog-src/CMakeLists.txt
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/spdlog-src/cmake/ide.cmake
+C:/Users/yigit/Desktop/projeler/C++/LearningVulkan/cmake-build-debug-visual-studio/_deps/spdlog-src/cmake/utils.cmake

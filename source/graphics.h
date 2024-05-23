@@ -19,12 +19,21 @@ namespace veng {
     private:
         void InitializeVulkan();
         void CreateInstance();
+        void SetupDebugMessenger();
         static gsl::span<gsl::czstring> GetSuggestedInstanceExtensions();
+        std::vector<gsl::czstring> GetRequiredInstanceExtensions();
         static std::vector<VkExtensionProperties> GetSupportedInstanceExtensions();
         static bool AreaAllExtensionSupported(gsl::span<gsl::czstring> extensions);
 
+        static std::vector<VkLayerProperties> GetSupportedValidationLayers();
+        static bool AreaAllLayerSupported(gsl::span<gsl::czstring> extensions);
+
+
+
         VkInstance instance_;
+        VkDebugUtilsMessengerEXT debug_messenger_;
         gsl::not_null <Window*> window_;
+        bool validation_enebled_ = false;
 
     };
 

@@ -15,6 +15,7 @@
 	[
 		"_deps\\glm-src",
 		"_deps\\glfw-src\\include",
+		"_deps\\spdlog-src\\include",
 		"C:\\VulkanSDK\\1.3.280.0\\Include",
 		"_deps\\microsoft-gsl-src\\include"
 	],

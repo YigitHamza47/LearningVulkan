@@ -185,6 +185,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{3334A627-7524-3B92-AE4E-5C69F01FB305}</Project>
       <Name>glm</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\yigit\Desktop\projeler\C++\LearningVulkan\cmake-build-debug-visual-studio\_deps\spdlog-build\spdlog.vcxproj">
+      <Project>{4FFBB4D0-99D0-3958-B1F2-BDF0E433C0E0}</Project>
+      <Name>spdlog</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

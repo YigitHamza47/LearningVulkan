@@ -1,8 +1,6 @@
 # CMake generation dependency list for this directory.
-C:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake
 C:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
 C:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
-C:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystem.cmake.in
 C:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
 C:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
 C:/Users/yigit/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.28/Modules/ExternalProject.cmake

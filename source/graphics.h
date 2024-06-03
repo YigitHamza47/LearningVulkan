@@ -20,6 +20,7 @@ namespace veng {
         void InitializeVulkan();
         void CreateInstance();
         void SetupDebugMessenger();
+        void PickPhysicalDevice();
         static gsl::span<gsl::czstring> GetSuggestedInstanceExtensions();
         std::vector<gsl::czstring> GetRequiredInstanceExtensions();
         static std::vector<VkExtensionProperties> GetSupportedInstanceExtensions();
@@ -29,8 +30,11 @@ namespace veng {
         static bool AreaAllLayerSupported(gsl::span<gsl::czstring> extensions);
 
 
+        bool IsDeviceSuitable(VkPhysicalDevice device);
+        std::vector<VkPhysicalDevice> GetAvailableDevices();
 
         VkInstance instance_;
+        VkPhysicalDevice physicalDevice = nullptr;
         VkDebugUtilsMessengerEXT debug_messenger_;
         gsl::not_null <Window*> window_;
         bool validation_enebled_ = false;

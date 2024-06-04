@@ -2,7 +2,6 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 #include <spdlog/spdlog.h>
-#include <Windows.h>
 
 #pragma region VK_FUNCTION_EXT_IMPL
 
@@ -239,22 +238,43 @@ namespace veng {
 
 #pragma region DEVICES_AND_QUESES
 
+    Graphics::QueueFamilyIndices Graphics::FindQueueFamilies(VkPhysicalDevice device) {
+        std::uint32_t queue_family_count = 0;
+        vkGetPhysicalDeviceQueueFamilyProperties(device,&queue_family_count, nullptr);
+        std::vector<VkQueueFamilyProperties> famileis(queue_family_count);
+        vkGetPhysicalDeviceQueueFamilyProperties(device, &queue_family_count, famileis.data());
+
+       auto graphics_family_it= std::find_if(famileis.begin(),famileis.end(),[](const VkQueueFamilyProperties& props){
+            return props.queueFlags & (VK_QUEUE_GRAPHICS_BIT | VK_QUEUE_TRANSFER_BIT);
+        });
+       QueueFamilyIndices result;
+        result.graphics_family = graphics_family_it - famileis.begin();
+        return result;
+    }
+
+
     bool Graphics::IsDeviceSuitable(VkPhysicalDevice device){
-        VkPhysicalDeviceProperties device_properties;
-        vkGetPhysicalDeviceProperties(device,&device_properties);
+        QueueFamilyIndices families = FindQueueFamilies(device);
 
-        VkPhysicalDeviceFeatures device_features;
-        vkGetPhysicalDeviceFeatures(device, &device_features);
-
+        return families.Isvalid();
 
     }
 
     void Graphics::PickPhysicalDevice() {
         std::vector<VkPhysicalDevice> devices = GetAvailableDevices();
+
+        std::erase_if(devices,std::not_fn(std::bind_front(&Graphics::IsDeviceSuitable, this)));
+
         if(devices.empty()){
-            spdlog::error("NO PHYSICAL DEVICE FOUND");
+            spdlog::error("NO PHYSICAL DEVICE FOUND THAT MATCH THE CRITERIA");
             std::exit(EXIT_FAILURE);
         }
+
+
+
+        physicalDevice = devices[0];
+
+
     }
 
     std::vector<VkPhysicalDevice> Graphics::GetAvailableDevices() {
@@ -298,6 +318,8 @@ namespace veng {
         SetupDebugMessenger();
         PickPhysicalDevice();
     }
+
+
 
 
 }

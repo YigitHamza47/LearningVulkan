@@ -17,6 +17,15 @@ namespace veng {
         ~Graphics();
 
     private:
+
+        struct QueueFamilyIndices{
+            std::optional<std::uint32_t> graphics_family = std::nullopt;
+            std::optional<std::uint32_t> presentation_family = std::nullopt;
+
+            bool Isvalid() const{return graphics_family.has_value() /*&& presentation_family.has_value()*/;}
+
+        };
+
         void InitializeVulkan();
         void CreateInstance();
         void SetupDebugMessenger();
@@ -28,6 +37,8 @@ namespace veng {
 
         static std::vector<VkLayerProperties> GetSupportedValidationLayers();
         static bool AreaAllLayerSupported(gsl::span<gsl::czstring> extensions);
+
+        QueueFamilyIndices FindQueueFamilies(VkPhysicalDevice device);
 
 
         bool IsDeviceSuitable(VkPhysicalDevice device);

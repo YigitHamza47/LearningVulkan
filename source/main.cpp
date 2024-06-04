@@ -3,6 +3,8 @@
 #include "graphics.h"
 #include "glfw_initilazition.h"
 
+#include<iostream>
+
 std::int32_t main(std::int32_t argc, gsl::zstring* argv) {
     const veng::GlfwInitialization _glfw;
 
@@ -12,7 +14,5 @@ std::int32_t main(std::int32_t argc, gsl::zstring* argv) {
     while(!window.ShouldClose()){
         glfwPollEvents();
     }
-
-
     return EXIT_SUCCESS;
 }

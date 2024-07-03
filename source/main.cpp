@@ -14,5 +14,7 @@ std::int32_t main(std::int32_t argc, gsl::zstring* argv) {
     while(!window.ShouldClose()){
         glfwPollEvents();
     }
+
+    ;
     return EXIT_SUCCESS;
 }
